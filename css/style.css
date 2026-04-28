@@ -1,49 +1,69 @@
+
 * {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
-    background-color: rgb(255, 255, 255);
+body {
+    background-color: #f0ebf8;
 }
 
-h1, h2, h3, h4, h5, h6{
-    color: black;
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
 }
 
-p, label{
-    color: rgb(1, 97, 92);
+p, label {
+    color: #444;
 }
 
-input{
+input {
     border: none;
     border-bottom: 1px solid #ccc;
     padding: 10px 0;
 }
 
-input[type= "text"], input[type= "number"], input[type= "date"], input[type= "file"], textarea{
+input[type="text"], input[type="number"], input[type="date"], input[type="file"], textarea {
     width: 400px;
 }
 
-textarea{
-    padding: 10px 5;
+textarea {
+    padding: 10px 5px;
 }
 
 .cabecalho {
     height: 160px;
     padding: 20px;
-    background-color: aliceblue;
+    background-color: #673ab7;
 }
 
 .cabecalho h3{
-      color: #666;
-      margin: 0%;
+    color: #fff;
+    margin-top: 0;
 }
 
-.from-header {
-   border-bottom: 1px solid #666;
-   height: 45px; 
+.form-container {
+    background-color: #dfdfdf;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -46px;
 }
 
-.from
+.form-header {
+    border-bottom: 1px solid #dfdfdf;
+    height: 45px;
+}
+
+.form-header p {
+    color: #673ab7;
+    border-bottom: 2px solid #673ab7;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 45px;
+    list-style: 45px;
+}
+
+

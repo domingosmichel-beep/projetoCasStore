@@ -30,6 +30,14 @@ textarea{
     padding: 10px 5;
 }
 
-.from-header {
-   border-bottom: 1px; 
+.cabecalho {
+    height: 160px;
+    padding: 20px;
+    background-color: aliceblue;
 }
+.from-header {
+   border-bottom: 1px solid #666;
+   height: 45px; 
+}
+
+.from

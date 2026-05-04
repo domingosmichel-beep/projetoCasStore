@@ -99,3 +99,19 @@ margin-bottom: 35px;
     margin-bottom: 5px;
 }
 
+.btn-submit {
+    background-color: cadetblue;
+    color: black;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.btn-submit:hover{
+    background-color: #dfdfdf;
+    color: #654599;
+    border-color: #333;
+}
